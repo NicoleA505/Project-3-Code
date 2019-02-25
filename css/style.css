@@ -1,0 +1,278 @@
+
+/*----HEADER IMAGE----*/
+
+.star {
+  width: 1%;
+}
+
+#header-img {
+  color: white;
+  margin-bottom: 0;
+  background: linear-gradient(#343a40, transparent 99%),
+              linear-gradient(0deg, #000, transparent 99%),
+              url("../images/brooklyn2.jpg") center/cover;
+}
+
+#button-gold {
+  background-color: #998100;
+  color: white;
+}
+
+#button-gold:hover {
+  background-color: #ad9a32;
+}
+
+.padding-section {
+  padding-top: 4rem;
+}
+
+.padding-title-bottom {
+  padding-bottom: 2rem;
+}
+
+.margin-sides-register {
+  margin: 0 5%;
+}
+
+.film-col-size {
+  width:
+}
+
+.text-white {
+  color: white;
+}
+
+/*----MAIN SECTION----*/
+
+ #film-section {
+  background-image: linear-gradient(#000, #343a40);
+}
+
+.width-border{
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.border-bottom-gold {
+  border-bottom: 2px solid #998100;
+}
+
+/*----FILM BACKGROUND-IMAGES----*/
+
+.height-film {
+  height: 300px;
+}
+
+.gold-border {
+  border: 1px groove #998100;
+}
+
+#about-time-pic {
+  background-image: url("../images/about-time.jpg");
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+}
+
+#jurassic-park-pic {
+  background-image: url("../images/jurassic-park.jpg");
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+}
+
+#cast-away-pic {
+  background-image: url("../images/cast-away.jpg");
+  background-position: left;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+}
+
+#mary-poppins-pic {
+  background-image: url("../images/mary-poppins.jpg");
+  background-position: right;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+}
+
+#finding-nemo-pic {
+  background-image: url("../images/finding-nemo.jpg");
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+}
+
+#love-actually-pic {
+  background-image: url("../images/love-actually.jpg");
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+}
+
+#width-border-register{
+  width: 90%;
+  margin: 0 auto 10px;
+  padding-bottom: 10px;
+}
+
+/*----Wrapper middle----*/
+
+#wrapper1-img {
+  height: 35rem;
+  margin-top: 100px;
+  padding-top: 10rem;
+  color: #fff;
+  font-family: "Comfortaa";
+  background: linear-gradient(#ffca7c, transparent 90%),
+              linear-gradient(0deg, #fff, transparent 90%),
+              url("../images/adults-celebration.jpg") bottom/cover;
+}
+
+.text-box {
+  width: 65%;
+  margin: 0 auto;
+  background-color: rgb(52,58,64, 0.6);
+  text-shadow: 2px 2px #000;
+  border-radius: 5px;
+  padding:
+}
+
+#lead-text-box {
+  width: 35%;
+}
+
+#wrapper2-img {
+  margin-top: 4rem;
+  padding-top: 10rem;
+  color: #fff;
+  font-family: "Comfortaa";
+  background: linear-gradient(20deg, #ffca7c, transparent 99%),
+              linear-gradient(100deg, #fff, transparent 99%),
+              url("../images/admission.jpg") bottom/cover;
+}
+
+
+.city-logos {
+  width: 200px;
+  padding-bottom: 20px;
+}
+
+.partners {
+  background: linear-gradient(#343a40, transparent 99%),
+              linear-gradient(0deg, #000, transparent 99%),
+              url("../images/brooklyn-street.jpg") center/cover;
+
+  margin-top: 4rem;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+}
+
+.links-decoration {
+  text-decoration: none;
+  color: #fff;
+}
+
+.links-decoration:hover {
+  color: #998100;
+  text-decoration: none;
+}
+
+/*----FOOTER----*/
+
+#footer {
+  background-color: #000;
+  color: #c1c1c1;
+}
+
+#border-top-footer {
+  border-top: 1px solid  #998100;
+  padding-top: 2rem;
+}
+
+#footer a {
+  text-decoration: none;
+  color: #c1c1c1;
+}
+
+#footer a:hover {
+  color: #fff;
+}
+
+.icon-block {
+  display: block;
+}
+
+
+
+/*------------ MEDIA QUERIES --------------*/
+
+@media (max-width: 768px) {
+
+  #header-img h1 {
+    margin: 0 6%;
+  }
+
+  .star {
+    width: 3%;
+  }
+
+  .gold-border {
+    border: none;
+  }
+
+  #wrapper1-img {
+    margin-top: 1rem;
+    padding-top: 3rem;
+  }
+
+  #wrapper1-img h1 {
+    font-size: 4rem;
+  }
+
+  #footer {
+    text-align: center;
+  }
+
+  #footer ul {
+    margin-bottom: 2rem;
+  }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+  .star {
+    width: 2%;
+  }
+
+  .gold-border {
+    border: none;
+  }
+
+}
+
+
+@media (min-width: 992px) {
+
+  .margin-sides-register {
+    margin: 0 20%;
+  }
+
+  .width-border{
+    width: 30%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+
+  #width-border-register{
+    width: 60%;
+    margin: 0 auto 10px;
+    padding-bottom: 10px;
+  }
+
+  .height-film {
+    height: 350px;
+  }
+
+}
