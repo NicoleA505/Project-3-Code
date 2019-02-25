@@ -173,6 +173,16 @@
   color: #fff;
 }
 
+.links-decoration-news {
+  text-decoration: none;
+  color: #343a40;
+}
+
+.links-decoration-news:hover {
+  color: #998100;
+  text-decoration: none;
+}
+
 .links-decoration:hover {
   color: #998100;
   text-decoration: none;
