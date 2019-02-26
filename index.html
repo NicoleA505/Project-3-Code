@@ -170,11 +170,13 @@
 
     <!---Wrapper Jumbotron------>
     <div id="wrapper1-img" class="jumbotron jumbotron-fluid text-center">
-      <div class="text-box">
-        <h1 id="wrapper1-h1" class="display-3">An Event for All Ages</h1>
-      </div>
-      <div id="lead-text-box" class="text-box">
-        <p id="leadtext-wrapper" class="lead">Choose from 6 popular and classic films!</p>
+      <div id="wrapper-text">
+        <div>
+          <h1 id="wrapper1-h1" class="display-3">An Event for All Ages</h1>
+        </div>
+        <div id="lead-text-box">
+          <p id="leadtext-wrapper" class="lead">Choose from 6 popular and classic films!</p>
+        </div>
       </div>
     </div>
 
@@ -228,11 +230,13 @@
 
     <!---Wrapper Jumbotron 2------>
     <div id="wrapper2-img" class="jumbotron jumbotron-fluid text-center">
-      <div class="text-box">
+      <div id="wrapper-text2">
+        <div>
           <h1 class="display-3">Relive Movie Magic</h1>
-      </div>
-      <div id="lead-text-box" class="text-box">
-        <p id="leadtext-wrapper" class="lead">Sign Up! Attendance is capped at 5,000</p>
+        </div>
+        <div id="lead-text-box" class="text-box">
+          <p id="leadtext-wrapper" class="lead">Sign Up! Attendance is capped at 5,000</p>
+        </div>
       </div>
     </div>
 
@@ -285,7 +289,7 @@
           <h2 class="display-4">Our Partners</h2>
         </div>
       </div>
-      <div class="container">
+      <div id="partners-width" class="container">
         <div class="row d-flex justify-content-around text-center">
           <div class="col pb-5">
             <a class="links-decoration" href="https://www1.nyc.gov/">
@@ -314,21 +318,21 @@
                 <a class="nav-link active" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Films</a>
+                <a class="nav-link" href="#film-section">Films</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Schedule</a>
+                <a class="nav-link" href="#schedule-section">Schedule</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Register</a>
+                <a class="nav-link" href="#register-section">Register</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#news-section">News</a>
               </li>
             </ul>
           </div>
         </div>
-        <div class="col-md-6"><!--address col-->
+        <div class="col-md-4"><!--address col-->
           <h6 class="text-uppercase mb-2"><span class="border-bottom-gold">About Us</span></h6>
           <p class="font-weight-light">
             The Brooklyn Outdoor Film Festival is organized and run by the Brooklyn Event Vibes Co.
@@ -344,11 +348,12 @@
           <a class="font-weight-light" class="link-footer" href="http://brooklyn.news12.com/">Brooklyn News 12</a><br />
           <a class="font-weight-light" class="link-footer" href="https://abc7ny.com/brooklyn/">ABC 7 Brooklyn</a>
         </div>
-        <div class="col-md-1 py-2"><!--social media icons col-->
-          <a href="#"><i class="fab fa-instagram icon-block py-3"></i></a>
-          <a href="#"><i class="fab fa-facebook icon-block py-3"></i></a>
-          <a href="#"><i class="fab fa-twitter icon-block py-3"></i></a>
-          <a href="#"><i class="fab fa-youtube icon-block py-3"></i></a>
+        <div class="col-md-2 py-2"><!--social media icons col-->
+          <div class="d-flex flex-row justify-content-around">
+            <a href="#"><i class="fab fa-instagram icon-block py-3"></i></a>
+            <a href="#"><i class="fab fa-facebook icon-block py-3"></i></a>
+            <a href="#"><i class="fab fa-twitter icon-block py-3"></i></a>
+            <a href="#"><i class="fab fa-youtube icon-block py-3"></i></a>
         </div>
       </div><!--/row-->
     </div>
