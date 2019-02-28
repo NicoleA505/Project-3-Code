@@ -68,6 +68,10 @@
   border: 1px groove #998100;
 }
 
+.bottom-margin-film {
+  margin-bottom: 0;
+}
+
 #films p {
   background-color: rgba(255, 255, 255, 0.2);
   padding: 10px;
@@ -121,8 +125,11 @@
   padding-bottom: 10px;
 }
 
-/*----Wrapper middle----*/
+.padding-sides {
+  padding: 0px 0px;
+}
 
+/*----Wrapper middle----*/
 #wrapper1-img {
   height: 35rem;
   margin-top: 100px;
@@ -138,7 +145,7 @@
   background-color: rgb(189,	190,	193, 0.6);
   text-shadow: 2px 2px #000;
   border-radius: 5px;
-  border: 1px solid #000;
+  border: 1px solid rgba(0,0,0, 0.2);
   padding: 10px 10px 0px;
 }
 
@@ -164,9 +171,8 @@
   background-color: rgb(189,	190,	193, 0.6);
   text-shadow: 2px 2px #000;
   border-radius: 5px;
-  border: 1px solid #000;
+  border: 1px solid rgba(0, 0, 0, 0.2);
   padding: 10px 10px 0px;
-  width:
 }
 
 .city-logos {
@@ -175,14 +181,13 @@
 }
 
 #partners-width {
-  width: 50%;
+  width: 40%;
 }
 
 .partners {
   background: linear-gradient(#343a40, transparent 99%),
               linear-gradient(0deg, #000, transparent 99%),
               url("../images/brooklyn-street.jpg") center/cover;
-
   margin-top: 4rem;
   color: #fff;
   text-shadow: 2px 2px #000;
@@ -209,10 +214,14 @@
 }
 
 /*----FOOTER----*/
-
 #footer {
   background-color: #000;
   color: #c1c1c1;
+  font-size: 12px;
+}
+
+#footer span {
+  font-size: 15px;
 }
 
 #border-top-footer {
@@ -233,10 +242,7 @@
   display: block;
 }
 
-
-
 /*------------ MEDIA QUERIES --------------*/
-
 @media (max-width: 768px) {
 
   #header-img h1 {
@@ -271,48 +277,38 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
-
   .star {
     width: 2%;
   }
-
   .gold-border {
     border: none;
   }
-
 }
 
 
 @media (min-width: 992px) {
-
   .margin-sides-register {
     margin: 0 20%;
   }
-
   .width-border{
     width: 30%;
     margin: 0 auto;
     padding-bottom: 10px;
   }
-
   #width-border-register{
     width: 60%;
     margin: 0 auto 10px;
     padding-bottom: 10px;
   }
-
   .height-film {
     height: 350px;
   }
-
   #wrapper-text {
     width: 60%;
     margin: 0 auto;
   }
-
   #wrapper-text2 {
     width: 60%;
     margin: 0 auto;
   }
-
 }
